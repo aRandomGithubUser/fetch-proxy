@@ -1,4 +1,4 @@
-import { readFileStr } from 'https://deno.land/std/fs/read_file_str.ts';
+import { readFileStr } from 'https://deno.land/std@0.50.0/fs/read_file_str.ts';
 import { Logger } from './logger.ts';
 
 export async function readConfig(path: string): Promise<Config> {

@@ -1,4 +1,4 @@
-import { readFileStr } from 'https://deno.land/std/fs/read_file_str.ts';
+import { readFileStr } from 'https://deno.land/std@0.50.0/fs/read_file_str.ts';
 import { ServerRequest } from 'https://deno.land/std@0.50.0/http/server.ts';
 import { Logger } from './logger.ts';
 
